@@ -12,7 +12,6 @@ logs
 node_modules
 
 # Built files
-lib/
 
 # Built demo files
 demo/public/style.css
