@@ -80,6 +80,6 @@ A comma-separated string of DOM element queries to exclude when clicking outside
 
 #### `excludebeforeclick`
 
-By default clickOutside registers excluded DOM elements on init. This property refreshes the list before the clickOutside event is triggered. This is useful for ensuring that excluded elements added to the DOM after init are excluded (e.g. ng2-popover: this allows for clicking inside the .popover-content area if specified in `exclude`)
+By default clickOutside registers excluded DOM elements on init. This property refreshes the list before the clickOutside event is triggered. This is useful for ensuring that excluded elements added to the DOM after init are excluded (e.g. ng2-bootstrap popover: this allows for clicking inside the `.popover-content` area if specified in `exclude`)
 
 Default: `false`
